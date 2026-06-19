@@ -43,7 +43,6 @@
 - Controller - Service - Mapper 계층 분리를 적용하여 역할별 책임을 분리하고 유지보수성을 고려한 구조 설계
 - 마감 공고 지원 차단, 중복 지원 방지, 리뷰 권한 검증 등 서버 측 검증 로직 구현
 - 지원 정보와 첨부파일 저장을 트랜잭션으로 처리하여 데이터 일관성 보장
-- MyBatis JOIN 및 페이지네이션을 활용한 공고 검색 기능 구현
 - AJAX 기반 비동기 처리를 통해 사용자 경험 개선
 
 🔗 Repository : https://github.com/yeonsu2002/recruit_prj
@@ -53,7 +52,6 @@
 ### 🔹 movie_prj
 **JSP · Servlet · JDBC 기반 영화 예매 웹 서비스**
 
-- Reservation과 ReservedSeat 테이블을 분리하여 다중 좌석 예매 구조 설계
 - 예매 취소 시 좌석 상태와 잔여 좌석 수를 함께 갱신하여 데이터 정합성 유지
 - 회원 탈퇴 기능에 Soft Delete 방식을 적용하여 데이터 보존 및 운영 이력 관리 구현
 - AJAX 기반 예매 상세 조회 모달 구현으로 사용자 편의성 향상
